@@ -1,0 +1,2 @@
+2021-06-25 15:11:57.276 | INFO     | rrunner.runner:test_start:482 - Start to run testcase: test_letsbim.xlsx, TestCase ID: cc7e277e-05f3-457b-97a1-1b13a039fee0
+2021-06-25 15:11:57.278 | INFO     | rrunner.runner:__run_step:320 - run step begin: 上传文件 >>>>>>

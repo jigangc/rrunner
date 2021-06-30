@@ -1,0 +1,48 @@
+2021-06-25 17:09:30.451 | INFO     | rrunner.runner:test_start:488 - Start to run testcase: test_letsbim.xlsx, TestCase ID: c9bdd8da-e9f8-423d-861f-edc9c11407ae
+2021-06-25 17:09:30.455 | INFO     | rrunner.runner:__run_step:326 - run step begin: 上传文件 >>>>>>
+2021-06-25 17:09:30.458 | INFO     | rrunner.runner:__run_step_request:148 - -----------test---------------
+2021-06-25 17:09:34.958 | INFO     | rrunner.runner:__run_step_request:181 - -----------test---------------
+2021-06-25 17:10:28.864 | DEBUG    | rrunner.client:request:186 - client IP: 192.168.16.76, Port: 56990
+2021-06-25 17:10:28.864 | DEBUG    | rrunner.client:request:194 - server IP: 121.36.168.105, Port: 80
+2021-06-25 17:10:28.866 | DEBUG    | rrunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : http://server.letsbim.net/api/v1/service/file
+headers  : {
+    "User-Agent": "python-requests/2.23.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "multipart/form-data; boundary=1e6d62c511274194a37fa5d9b16397d4",
+    "HRUN-Request-ID": "HRUN-c9bdd8da-e9f8-423d-861f-edc9c11407ae-174958",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6MSwiYXBwS2V5IjoibGV0c2JpbSIsImV4cGlyZSI6MTYyNTEyMTMxM30.EDF6KlLyvkFVuxKY5zNlrCYLcVu24LgkFLSczovOPww",
+    "Content-Length": "17813678"
+}
+cookies  : {}
+body     : upload file stream (OMITTED)
+
+2021-06-25 17:10:28.868 | DEBUG    | rrunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Content-Length": "48",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate, value",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Fri, 25 Jun 2021 09:21:41 GMT",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Last-Modified": "Fri, 25 Jun 2021 09:20:49 GMT"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "status": 200,
+    "code": 0,
+    "message": "OK",
+    "data": 58
+}
+
+2021-06-25 17:10:28.868 | INFO     | rrunner.client:request:217 - status_code: 200, response_time(ms): 52063.48 ms, response_length: 0 bytes
+2021-06-25 17:10:30.926 | ERROR    | rrunner.response:__getattr__:141 - ResponseObject does not have attribute: __len__
+2021-06-25 17:10:30.939 | ERROR    | rrunner.response:__getattr__:141 - ResponseObject does not have attribute: __len__
